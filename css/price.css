@@ -1,0 +1,110 @@
+.tarifs{
+    margin-top: 110px;
+    display: table;
+}
+.column_tariif{
+    width: 33%;
+    display: table-cell;
+    text-align: center;
+}
+.tariff_header{
+    box-sizing: border-box;
+    padding: 30px 0;
+    border: 1px solid #eeeeee;
+}
+.tariff_description{
+    padding: 47px 0;
+}
+.tariff_name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    /*font-weight: 700;*/
+    color: #485563;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.tariff_price{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color:#485563;
+    margin: 8px 0;
+}
+.tariff_time{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #29323c;
+}
+.tariff_description{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #29323c;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    padding: 45px 5%;
+}
+.btn_price{
+    background-color: #485563;
+    margin: 47px auto;
+}
+.tariff_description_with_button{
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.best_tariff_text{
+    color: #29323c;
+    position: relative;
+}
+/*
+.dtc{
+    display: table-cell;
+}*/
+.table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    width: 33%;
+}
+.minus_border_top{
+    border-top: none;
+}
+.minus_border_bot{
+    border-bottom: none;
+}
+.btn_price:hover{
+    border: 2px solid #29323c;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 32px;
+    color: #29323c;
+    background-color: #fff;
+}
+.header_top_proposition::before{
+    display: block;
+    content: "";
+    height: 40px;
+    border-top: 5px solid #485563;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    position: absolute;
+    top: -40px;
+    background: #fff;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

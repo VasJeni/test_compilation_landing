@@ -1,0 +1,40 @@
+.footer_about_company{
+    color:#525961;
+}
+.page_footer{
+    background-color: #f5f5f5;
+}
+.copyright{
+    font-size: 14px
+}
+.icon{
+    width: 35px;
+}
+.footer_margin{
+    margin-top: 20px;
+    padding: 50px 0;
+}
+.footer_about_company,
+.copyright,
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    /*
+    margin: 0 1%;
+    */
+}
+.copyright{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #29323c;
+    margin: 0 2%;
+}
+
+.logo_in_the_end,
+.social_contact{
+    width: 50%;
+}
+.icon{
+    text-align: right;
+}

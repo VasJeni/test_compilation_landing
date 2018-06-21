@@ -1,0 +1,127 @@
+
+.section_one {
+    
+    background-color: #485563, #29323c;
+    background: linear-gradient(to left,rgba(72, 85, 99, 0%), 
+        rgba(41,50,80,80%)), url('../image/section_header/first.png');
+    background-size: 100% 100%;
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+.homepage_container {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.homepage_top {
+    padding: 0 60px;
+}
+
+.font_logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.homepage-menu-holder {
+    float: right;
+    margin: 15px 0 15px 0;
+}
+
+.homepage-menu-text,
+.homepage-menu-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.homepage-menu-text {
+    margin: 0 15px;
+    color: #e8e8e8;
+    font-family: Montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.homepage-menu {
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.homepage-content {
+    padding-top: 200px;
+}
+
+.white_title_description {
+    color: #e8e8e8;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -0.42px;
+    margin: 35px 0;
+}
+
+.white_title_description::after{
+    display: none;
+}
+
+.white_tagline {
+    line-height: 40px;
+    font-size: 36px;
+}
+
+
+.homepage_button {
+    color: #e8e8e8;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.homepage-footer {
+    position: relative;
+    left: 0;
+    top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.homepage-circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: absolute;
+    left: 558px;
+    top: 0;
+}
+
+.homepage-footer_image {
+    background-size: cover;
+    padding-top: 18px;
+    width: 25px;
+    overflow: visible;
+}
+
+.homepage-circle::after {
+    width: 115px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    content: "";
+    transform: rotate(90deg);
+    position: absolute;
+    top: 108px;
+    right: -32px;
+}
+
+
+
+
+

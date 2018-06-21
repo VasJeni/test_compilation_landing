@@ -1,0 +1,85 @@
+
+.section_five {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: linear-gradient(to top,rgba(72, 85, 99, 0%), 
+  rgba(41, 50, 60, 60%)), url('../image/section_team/second.png');
+  background-size: 100% 100%;
+}
+
+.team_container {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team_content {
+  margin-top: 60px;
+  font-size: 0px;
+}
+
+.white_title {
+  color: white;
+  letter-spacing: -0.65px;
+}
+
+.white_title_descrip::after{
+    margin: 10px auto 0 auto;
+    background-color: white;
+}
+
+.white_title_descrip {
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.team_column {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  margin: 0 2% 7% 2%;
+}
+
+.team_description {
+  background-color: #f2f2f2;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.description p {
+  margin: 10px;
+}
+
+.name {
+  color: #29323c;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.position {
+  color: #29323c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  display: inline-block;
+  margin: 3px;
+}
+
+.team_button {
+  color: #e8e8e8;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px 15px;
+  text-align: center;
+}

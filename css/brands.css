@@ -1,0 +1,32 @@
+.section6{
+	background-color: #f5f5f5;
+}
+.content_brand{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+.brand-logo{
+	width: 166px;
+	height: 70px;
+	margin: 0px 20px;
+	float: left;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.coca-cola{
+	background-image: url('../image/section_brands/coca-cola.png');
+}
+.dropbox{
+	background-image: url('../image/section_brands/dropbox.png');
+}
+.intel{
+	background-image: url('../image/section_brands/intel.png');
+}
+.zendesk{
+	background-image: url('../image/section_brands/zendesk.png');
+}
+.nokia{
+	background-image: url('../image/section_brands/nokia.png');
+}
