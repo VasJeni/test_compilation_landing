@@ -76,9 +76,9 @@
     clear: both;
     overflow: hidden;
 }
-img{
+/*img{
     width: 100%;
-}
+}*/
 .float_left {
     float: left;
 }
