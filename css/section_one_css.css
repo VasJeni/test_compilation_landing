@@ -4,7 +4,7 @@
     background-color: #485563, #29323c;
     background: linear-gradient(to left,rgba(72, 85, 99, 0%), 
         rgba(41,50,80,80%)), url('../image/section_header/first.png');
-    background-size: 100% 100%;
+    background-size: cover;
     padding-top: 15px;
     padding-bottom: 120px;
 }
